@@ -16,3 +16,5 @@ There is also a large number of null values within the carbon data due to the th
 ### Describe your results
 Since we can see gradual canopy loss, we can theorize and hypothesise that higher threshold (denser forests) suffer from great canopy loss overtime. We can also contextualize possible events that may have happened in the 2015-2016 timeframe such as influx of illegal logging events or policy changes Some feature engineering opportunities could involve year-over-year change or possible rolling averages. Other features could include additional datasets like climate(temperature) as there are many variables that affect deforestation
 
+### EDA Findings
+Most carbon is stored in primary forests which are areas that are most of interest for logging. Carbon emissions and Tree cover are very positively correlated. Tree Cover loss sporadicness has increased over time and can be explained through changes within this topic space  like wildfires
