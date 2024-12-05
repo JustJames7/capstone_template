@@ -9,7 +9,7 @@ Using historical satellite data, this project analyzes deforestation risks by st
 
 ### Installation and Setup
 - Editor: Jupyter Notebook
-- Python Version: 
+- Python Version: 3.12.4
 - Key Libraries:
 	- Data Manipulation: `pandas`, `NumPy`
 	- Data Visualization: `matplotlib`, `seaborn`
