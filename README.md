@@ -32,12 +32,18 @@ The main datasets were retrieved from [Global Forest Watch](https://www.globalfo
 ![Key contributors to carbon emissions](images/tc_loss_2001-2023.png)
 
 ### Models
-- Linear regression models used to capture the predictive power of net carbon emissions and net tree cover loss
+- Linear regression models were used as a baseline to try and capture the predictive power of net carbon emissions and net tree cover loss. Lasso regression was later used to optimize the performance of this model
+-  Evaluation metrics used were mean squared error (MSE), mean absolute error (MAE) and R-squared. 
 
 ### Analysis
+- A strong correlation was found between carbon emissions and tree density loss suggesting that areas with high emissions are likely experiencing significant deforestation as well as a driver that 2 separate models can potentially explain a similar problem
+- Leveraging historical carbon and forest data, the model can be used to make predictions for countries or potentially areas with higher granularity like subnational regions or cities as the models focus on dense forests where the forested areas are represented by country forest data
 
 ### Results
+Net Carbon Emissions Model Performance: 83.81%
+Tree Density Gain Model Performance: 97.82%
 
 ### Future Work
 - Integrating additional datasets (e.g., climate, economic activity)
-
+- Integrating upcoming 2024 carbon and tree density data
+- Additional Model experimentation to evaluate other models performance
