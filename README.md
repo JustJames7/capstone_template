@@ -45,5 +45,5 @@ Tree Density Gain Model Performance: 97.82%
 
 ### Future Work
 - Integrating additional datasets (e.g., climate, economic activity)
-- Integrating upcoming 2024 carbon and tree density data
+- Integrating upcoming 2025 carbon and tree density data
 - Additional Model experimentation to evaluate other models performance
